@@ -9,7 +9,7 @@ At its core, the board drives the electronic speed controller while monitoring s
 - Power management is handled entirely onboard through a multi-stage regulation pipeline:
 - A primary buck converter steps high-voltage battery power down to a stable 5V rail.
 - A 3.3V low-dropout regulator supplies power to the STM32 microcontroller and digital logic.
-- A dedicated, ultra-low-noise 4.3V voltage reference IC powers the load cell front-end to ensure clean analog signal acquisition.
+- A dedicated, ultra-low-noise 4.3V LDO powers the load cell front-end to ensure clean analog signal acquisition.
 - USB-C input for 5V power and serial debugging.
 - Features a power MUX that chooses the 5V input between the buck and the USB-C.
 
