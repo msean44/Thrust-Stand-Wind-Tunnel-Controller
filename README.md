@@ -60,18 +60,22 @@ The board consists of 4 layers:
 
 ### Layer 1
 This layer consists of all the power converters (Buck + LDOs), Connectors, USB-C, and the voltage and current sensing amplifiers.
+
 <img width="717" height="557" alt="Layer 1" src="https://github.com/user-attachments/assets/bb82f150-39a8-4312-8545-a465c10ea714" />
 
 ### Layer 2
 Solid GND plane to minimize heat dissipation and reduce the return current for the buck converter and LDOs.
+
 <img width="735" height="569" alt="Layer 2" src="https://github.com/user-attachments/assets/a9279b52-9429-4b9b-8ff8-a410a524dd29" />
 
 ### Layer 3
 GND plane + power plane to increase the current rating of the board
+
 <img width="723" height="563" alt="Layer 3" src="https://github.com/user-attachments/assets/56cce76a-5929-442e-8aa4-8d4dde7d0225" />
 
 ### Layer 4
 This layer consists of the main MCU (STM32F446RET6), the load cell amplifiers (ADS1220), and all the signal traces. (Routing currently still in progress)
+
 <img width="707" height="569" alt="Layer 4" src="https://github.com/user-attachments/assets/3144e157-bf3c-470a-ad39-6d8620656b8e" />
 
 
